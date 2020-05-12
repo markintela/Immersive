@@ -13,8 +13,10 @@
 	<link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" />
 	<script src="assets/bootstrap/jquery.min.js"></script>
 	<script src="assets/bootstrap/bootstrap.min.js"></script>
+	<script src="assets/bootstrap/numbercases.js"></script>
+    
 
-
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.2/countUp.min.js'></script>
 	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -37,9 +39,9 @@
 			<ul>
 				<img src="images/street-view-trusted.png" style="height: 35px;  margin-top: 15px; ">
 				<li><a href="#intro">Home</a></li>
-				<li><a href="#one">Google Street View </a></li>
-				<li><a href="#two">Publicity</a></li>
-				<li><a href="#work">Portfolio</a></li>
+				<li><a href="#one">Custom Interactive Tour</a></li>
+				<li><a href="#two">Google Street View</a></li>
+				<li><a href="#work">Show Cases</a></li>
 				<li><a href="#contact">Contact</a></li>
 
 			</ul>
@@ -54,7 +56,7 @@
 				<!--<h2>Session2</h2>-->
 
 			</header>
-			<p class="init">Thanks for visiting my <strong> website,</strong>  developed for you know more about the Google Street View Program. In case of doubts or requests for services<strong> <a href="#contact"
+			<p class="init">Thanks for visiting my <strong> website,</strong>  developed for you know more about how you can improve your visibility by a Custom Interactive Tour and Google Street View Tour. In case of doubts or requests for services<strong> <a href="#contact"
 				>contact me</a></strong>
 				.</p>
 				<footer>
@@ -67,9 +69,10 @@
 		<section id="one" class="main style2 right dark fullscreen">
 			<div class="content box style2">
 				<header>
-					<h2><img src="images/street-view-trusted.png" style="height: 50px;  margin-top: 15px; "></h2>
+					<h2>Custom Interactive Tour</h2>
 				</header>
-				<p>The Google Street View Trusted is a project to access private environments by Google Tools, allowing a virtual tour within your establishment by people from around the world giving your business more visibility.</p>
+				<p>A custom tour allow you create hotspots and show specific information by photo or video, becoming the tour interactive for your costumers and give you control about the content inside of the tour.</p>
+				
 			</div>
 			<a href="#two" class="button style2 down anchored">Next</a>
 		</section>
@@ -78,11 +81,11 @@
 		<section id="two" class="main style2 left dark fullscreen">
 			<div class="content box style2">
 				<header>
-					<h2>Publicity</h2>
-
+					<h2>Google Street View</h2>
 				</header>
+				<p>Make your business visible in the bigger search site, people want to know about you. After publish a Google Street View tour it´s automatically integrated with Google Maps and Google My Business. You also can incoporate the tour in your website andfacebook page.</p>
 
-				<p><iframe src="https://player.vimeo.com/video/185365634?title=0&byline=0&portrait=0" width="100%" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+				<p><iframe src="https://player.vimeo.com/video/185365634?title=0&byline=0&portrait=0" width="100%" height="230" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
 			</div>
 			<a href="#work" class="button style2 down anchored">Next</a>
 		</section>
@@ -91,7 +94,7 @@
 		<section id="work" class="main style3 primary">
 			<div class="content container">
 				<header>
-					<h2>Portfolio</h2>
+					<h2>Show Cases</h2>
 					<p>Click and check out some virtual tours.</p>
 				</header>
 
@@ -105,7 +108,9 @@
 							<div class="col-xs-6 col-md-3">
 								<a href="" class="thumbnail" data-toggle="modal" data-target="#apollo">
 									<img src="images/apollo.jpg" alt="Apollo Language Centre" />
+
 								</a>
+								<p style="font-size: 0.8em; margin-top: 0;"><em>199.850 Views</em></p>
 							</div>
 
 
@@ -113,6 +118,7 @@
 								<a href="" class="thumbnail" data-toggle="modal" data-target="#dog">
 									<img src="images/dog.jpg" alt="The Dog Father" />
 								</a>
+								<p style="font-size: 0.8em; margin-top: 0;"><em>8.528 Views</em></p>
 							</div>
 
 
@@ -120,12 +126,14 @@
 								<a href="" class="thumbnail" data-toggle="modal" data-target="#alpha">
 									<img src="images/alpha.jpg" alt="Rede Alpha Fitness" />
 								</a>
+								<p style="font-size: 0.8em; margin-top: 0;"><em>112.760 Views</em></p>
 							</div>
 
 							<div class="col-xs-6 col-md-3">
 								<a href="" class="thumbnail" data-toggle="modal" data-target="#orange">
 									<img src="images/orange.jpg" alt="Orange Terrace Hostel" />
 								</a>
+								<p style="font-size: 0.8em; margin-top: 0;"><em>20.240 Views</em></p>
 							</div>
 
 
@@ -171,6 +179,26 @@
 			</div>
 		</section>
 
+<?php
+
+if(isset($_GET['message'])){
+
+	
+	$var = "<script>
+  $(document).ready(function(){
+    
+    	alert('Mensagem Enviada!');
+    
+    
+  });
+  </script>";
+
+echo $var;
+}
+
+
+
+ ?>
 
 
 		<!-- Footer -->
@@ -186,7 +214,7 @@
 
 			<!-- Menu -->
 			<ul class="menu">
-				<li>&copy; MQ Trusted </li><li>2018 </li>
+				<li>&copy; MQ Trusted </li><li>2020 </li>
 			</ul>
 
 		</footer>
@@ -280,6 +308,19 @@
 </div>
 </div>
 <!-- FIM MODAL MICHEL -->
+
+
+
+
+<div  id="message" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      Mensagem enviada!
+    </div>
+  </div>
+</div>
+
+
 
 
 
