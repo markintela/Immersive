@@ -56,7 +56,7 @@
 				<!--<h2>Session2</h2>-->
 
 			</header>
-			<p class="init">Thanks for visiting my <strong> website,</strong>  developed for you know more about how you can improve your visibility by a Custom Interactive Tour and Google Street View Tour. In case of doubts or requests for services<strong> <a href="#contact"
+			<p class="init">Thanks for visiting my <strong> website,</strong>  developed for you know more about how you can improve your visibility and publicity. In case of doubts or requests for services<strong> <a href="#contact"
 				>contact me</a></strong>
 				.</p>
 				<footer>
@@ -71,7 +71,7 @@
 				<header>
 					<h2>Custom Interactive Tour</h2>
 				</header>
-				<p>A custom tour allow you create hotspots and show specific information by photo or video, becoming the tour interactive for your costumers and give you control about the content inside of the tour.</p>
+				<p>A custom tour allow you create hotspots and show specific information by photo or video, becoming the tour interactive for your customers and give you control about the content.</p>
 				
 			</div>
 			<a href="#two" class="button style2 down anchored">Next</a>
@@ -83,7 +83,7 @@
 				<header>
 					<h2>Google Street View</h2>
 				</header>
-				<p>Make your business visible in the bigger search site, people want to know about you. After publish a Google Street View tour it´s automatically integrated with Google Maps and Google My Business. You also can incoporate the tour in your website andfacebook page.</p>
+				<p>Make your business visible in the bigger search site of the world, people want to know about you. After publish a Google Street View tour it´s automatically integrated with Google Maps and Google My Business. You also can incorporate it in your website and facebook page.</p>
 
 				<p><iframe src="https://player.vimeo.com/video/185365634?title=0&byline=0&portrait=0" width="100%" height="230" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
 			</div>
@@ -110,7 +110,7 @@
 									<img src="images/apollo.jpg" alt="Apollo Language Centre" />
 
 								</a>
-								<p style="font-size: 0.8em; margin-top: 0;"><em>199.850 Views</em></p>
+						
 							</div>
 
 
@@ -118,7 +118,7 @@
 								<a href="" class="thumbnail" data-toggle="modal" data-target="#dog">
 									<img src="images/dog.jpg" alt="The Dog Father" />
 								</a>
-								<p style="font-size: 0.8em; margin-top: 0;"><em>8.528 Views</em></p>
+					
 							</div>
 
 
@@ -126,14 +126,14 @@
 								<a href="" class="thumbnail" data-toggle="modal" data-target="#alpha">
 									<img src="images/alpha.jpg" alt="Rede Alpha Fitness" />
 								</a>
-								<p style="font-size: 0.8em; margin-top: 0;"><em>112.760 Views</em></p>
+							
 							</div>
 
 							<div class="col-xs-6 col-md-3">
 								<a href="" class="thumbnail" data-toggle="modal" data-target="#orange">
 									<img src="images/orange.jpg" alt="Orange Terrace Hostel" />
 								</a>
-								<p style="font-size: 0.8em; margin-top: 0;"><em>20.240 Views</em></p>
+						
 							</div>
 
 
