@@ -2849,7 +2849,7 @@
 	#nav {
 		position: absolute;
 		right: 0.5em;
-		top: 0;
+		top: 22px !important;
 		height: 3em;
 		line-height: 3em;
 	}

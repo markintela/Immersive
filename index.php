@@ -3,7 +3,7 @@
 
 <html>
 <head>
-	<title>MQ Trusted - Google Street View</title>
+	<title>Immersive - Degree</title>
 
 
 	<meta charset="utf-8" />
@@ -31,13 +31,13 @@
 	<header id="header">
 
 		<!-- Logo -->
-		<h1 id="logo"><a href="#intro"><img  src="images/logo.png" style="height: 50px;margin-top: 5px;"/></a> </h1>
+		<h1 id="logo"><a href="#intro"><img  src="images/logo.png" style="height: 50px;margin-top: 10px;"/></a> </h1>
 
 
 		<!-- Nav -->
 		<nav id="nav">
 			<ul>
-				<img src="images/street-view-trusted.png" style="height: 35px;  margin-top: 15px; ">
+				<!-- <img src="images/street-view-trusted.png" style="height: 35px;  margin-top: 15px; "> -->
 				<li><a href="#intro">Home</a></li>
 				<li><a href="#one">Custom Interactive Tour</a></li>
 				<li><a href="#two">Google Street View</a></li>
